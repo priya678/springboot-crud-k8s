@@ -80,3 +80,20 @@ spec:
     app: mysql
     tier: database
   clusterIP: None  # We Use DNS, Thus ClusterIP is not relevant
+---
+apiVersion : v1
+kind : ConfigMap
+metadata:
+  name : db-config
+data:
+  host : mysql
+  dbName: exampledb
+---
+apiVersion : v1
+kind : Secret
+metadata:
+  name : mysql-secrets
+data:
+  username : cm9vdA==
+  password : cm9vdA==
+  
