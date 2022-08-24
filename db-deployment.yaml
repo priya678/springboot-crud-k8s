@@ -87,7 +87,7 @@ metadata:
   name : db-config
 data:
   host : mysql
-  dbName: exampledb
+  dbName: javatechie
 ---
 apiVersion : v1
 kind : Secret
