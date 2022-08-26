@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot-crud-k8s
-          image: docker1243/springboot-crud-k8s:1.0
+          image: docker1243/springboot-crud-k8s:{{.Values.docker_tag}}
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
