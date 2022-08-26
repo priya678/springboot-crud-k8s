@@ -1,2 +1,1 @@
-db_username:<+secrets.DB_USERNAME>
-db_pwd:<+secrets.DB_PASSWORD>
+docker_tag: <+pipeline.sequenceid>
