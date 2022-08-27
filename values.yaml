@@ -1,1 +1,1 @@
-docker_tag: <+artifact.image>
+docker_image: <+artifact.image>
