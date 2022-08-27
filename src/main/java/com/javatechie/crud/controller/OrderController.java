@@ -28,4 +28,9 @@ public class OrderController {
     public Order getOrderById(@PathVariable int id){
         return service.getOrderById(id);
     }
+    
+    @RequestMapping("/hello")
+    public String hello() {
+        return "Hello World RESTful with Spring Boot";
+    }  
 }
