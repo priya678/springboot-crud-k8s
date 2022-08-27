@@ -1,1 +1,1 @@
-docker_tag: <+pipeline.sequenceid>
+docker_tag: <+artifact.image>
