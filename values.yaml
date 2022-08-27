@@ -1,1 +1,2 @@
 docker_image: <+artifact.image>
+db_password: <+secrets.getValue("db_password")>
