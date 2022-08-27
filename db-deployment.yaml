@@ -96,5 +96,5 @@ metadata:
   name : mysql-secrets
 data:
   username : cm9vdA==
-  password : {{.Values.db_password}}
+  password : cm9vdA==
   
