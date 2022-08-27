@@ -29,8 +29,5 @@ public class OrderController {
         return service.getOrderById(id);
     }
     
-    @RequestMapping("/")
-    public String hello() {
-        return "Hello World RESTful with Spring Boot";
-    }  
+    
 }
