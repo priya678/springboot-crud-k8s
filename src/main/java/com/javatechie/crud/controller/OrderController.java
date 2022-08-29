@@ -31,7 +31,7 @@ public class OrderController {
     
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello World !!!";
+        return "Hello World !!! testing demo";
     }  
 
     
