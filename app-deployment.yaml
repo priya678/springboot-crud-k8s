@@ -57,24 +57,6 @@ spec:
       targetPort: 8080 # The port exposed by the service
   type: NodePort # type of the service.
   
----
-apiVersion : v1
-kind : ConfigMap
-metadata:
-  name : db-config
-data:
-  host : mysql
-  dbName: javatechie
-  
----
-
-apiVersion : v1
-kind : Secret
-metadata:
-  name : mysql-secrets
-data:
-  username : cm9vdA==
-  password : cm9vdA==
 
   
 
